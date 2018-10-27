@@ -1,0 +1,93 @@
+/** {
+  border: 1px solid blue;
+}*/
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: 'SF UI Display', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+.box {
+  height: 771px;
+  width: 771px;
+  margin: auto;
+  /*background-image: url(images/background.jpg);*/
+  background-position: center;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.name {
+  position:relative;
+  font-weight: 400;
+  padding-top: 240px;
+  font-size: 53px;
+  letter-spacing: 11.54px;
+  /*display: inline-block;
+  clear: both;*/
+}
+
+.position {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 4.2px;
+  margin-left: -8px;
+  padding-top: 10px;
+  /*display: inline-block;
+  clear: both;*/
+}
+
+.btns {
+  padding-top: 44px;
+  padding-bottom: 48px;
+}
+
+.btn {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-be { background-image: url(images/be.png); }
+/*.btn-be:hover { background-image: url(images/be_hover.png); }*/
+
+.btn-drb { background-image: url(images/drb.png); }
+/*.btn-drb:hover { background-image: url(images/drb_hover.png); }*/
+
+.btn-in { background-image: url(images/in.png); }
+/*.btn-in:hover { background-image: url(images/in_hover.png); }*/
+
+.btn-t { background-image: url(images/t.png); }
+/*.btn-t:hover { background-image: url(images/t_hover.png); }*/
+
+.btn-twi { background-image: url(images/twi.png); }
+/*.btn-twi:hover { background-image: url(images/twi_hover.png); }*/
+
+a {
+  display: inline-block;
+  text-decoration: underline;
+  color: black;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 1.83px;
+}
+
+a:hover {
+  color: #54BF9B;
+}
